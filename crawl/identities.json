@@ -1,0 +1,521 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "SiteDetailPage",
+      "patterns": [
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/*/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "SiteDetailPage2",
+      "patterns": [
+        "/en/*/*",
+        "/en/*",
+        "/en/*/*/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "SiteDetailPage3",
+      "patterns": [
+        "/en/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/blog/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "BlogDetailPage",
+      "patterns": [
+        "/en/blog/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/*/*/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "SiteDetailPage4",
+      "patterns": [
+        "/en/*/*/*",
+        "/en/*/*",
+        "/en/*/*/*/*",
+        "/en/*/*/application-services/*",
+        "/en/industries/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/*/*/*#2",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "SiteDetailPage5",
+      "patterns": [
+        "/en/*/*/*",
+        "/en/*/*",
+        "/en/*/smart-platforms/servicenow/*",
+        "/en/client-success/client-stories/*",
+        "/en/industries/*",
+        "/en/*/*/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/alliances-partnerships/*/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "AlliancesPartnershipsDetailPage",
+      "patterns": [
+        "/en/alliances-partnerships/*/*",
+        "/en/*/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/events/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "EventsDetailPage",
+      "patterns": [
+        "/en/events/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/client-success/client-stories/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "ClientSuccessClientStoriesDetailPage",
+      "patterns": [
+        "/en/client-success/client-stories/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDetailPage",
+      "patterns": [
+        "/en/lp/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/*/*/*#3",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "SiteDetailPage6",
+      "patterns": [
+        "/en/*/*/*",
+        "/en/alliances-partnerships/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/*#2",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDetailPage2",
+      "patterns": [
+        "/en/lp/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/privacy/cookies-and-other-tracking-technologies",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "PrivacyCookiesAndOtherPage",
+      "patterns": [
+        "/en/privacy/cookies-and-other-tracking-technologies"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/*/*/*/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "SiteDetailPage7",
+      "patterns": [
+        "/en/*/*/*/*",
+        "/en/alliances-partnerships/*",
+        "/en/alliances-partnerships/*?"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/*#3",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDetailPage3",
+      "patterns": [
+        "/en/lp/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/digital-security-magazine-20th-edition",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDigitalSecurityMagazinePage",
+      "patterns": [
+        "/en/lp/digital-security-magazine-20th-edition"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/*/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDetailPage4",
+      "patterns": [
+        "/en/lp/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/operationalizing-ai-overcoming-the-challenges",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpOperationalizingAiOvercomingPage",
+      "patterns": [
+        "/en/lp/operationalizing-ai-overcoming-the-challenges"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/exercise-rights-regarding-personal-data",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "ExerciseRightsRegardingPersonalPage",
+      "patterns": [
+        "/en/exercise-rights-regarding-personal-data"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/{n}/*/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "SiteDetailPage8",
+      "patterns": [
+        "/en/{n}/*/*",
+        "/en/newsroom/*",
+        "/en/{n}/awards_2023_04_13/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/client-success/client-stories",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "ClientSuccessClientStoriesPage",
+      "patterns": [
+        "/en/client-success/client-stories"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/expert/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "ExpertDetailPage",
+      "patterns": [
+        "/en/expert/*",
+        "/en/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/*#2",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "SiteDetailPage9",
+      "patterns": [
+        "/en/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/industries/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "IndustriesDetailPage",
+      "patterns": [
+        "/en/industries/*",
+        "/en/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/atos-threat-research-center",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpAtosThreatResearchPage",
+      "patterns": [
+        "/en/lp/atos-threat-research-center"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/*/*#2",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDetailPage5",
+      "patterns": [
+        "/en/lp/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/cybershield/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpCybershieldDetailPage",
+      "patterns": [
+        "/en/lp/cybershield/*",
+        "/en/lp/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/worldwide-locations",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "WorldwideLocationsPage",
+      "patterns": [
+        "/en/worldwide-locations"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/*#4",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDetailPage6",
+      "patterns": [
+        "/en/lp/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/digital-sovereignty-for-switzerland",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDigitalSovereigntyForPage",
+      "patterns": [
+        "/en/lp/digital-sovereignty-for-switzerland"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/industries/*/*",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "IndustriesDetailPage2",
+      "patterns": [
+        "/en/industries/*/*",
+        "/en/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/industries",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "IndustriesPage",
+      "patterns": [
+        "/en/industries"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/newsroom",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "NewsroomPage",
+      "patterns": [
+        "/en/newsroom"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/newsroom/brand-center",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "NewsroomBrandCenterPage",
+      "patterns": [
+        "/en/newsroom/brand-center"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/digital-security-magazine-18",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDigitalSecurityMagazinePage2",
+      "patterns": [
+        "/en/lp/digital-security-magazine-18"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/blog",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "BlogPage",
+      "patterns": [
+        "/en/blog"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/lp/digital-sovereignty-an-atos-strategic-growth-pillar",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "LpDigitalSovereigntyAnPage",
+      "patterns": [
+        "/en/lp/digital-sovereignty-an-atos-strategic-growth-pillar"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    },
+    {
+      "id": "type:/en/client-success",
+      "kind": "page-type",
+      "introducedAt": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861",
+      "cls": "ClientSuccessPage",
+      "patterns": [
+        "/en/client-success"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "5d9781c8d00c02ba3c3a7805f75e20ac5d7b486c106c0d114b1fcaa7ea9a0861"
+      }
+    }
+  ]
+}
